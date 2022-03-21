@@ -105,6 +105,7 @@ public class Main {
 		
 		System.out.println("Enter Username :");
 		String username = sc.next();
+		sc.nextLine();
 		users.setUsername(username);
 		System.out.println();
 		//taking a copy of the username for checking it's pre-existence
